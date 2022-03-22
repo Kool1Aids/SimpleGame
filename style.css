@@ -1,0 +1,38 @@
+body {
+    background: green;
+  }
+  /* div {
+  } */
+  #card {
+    border-radius: 25px;
+    width: 350px;
+    height: 475px;
+    margin: auto;
+    margin-top: 70px;
+    background: white;
+    display: flexbox;
+  }
+  .number {
+    display: block;
+    padding-top: 90px;
+    padding-left: 147px;
+    font-size: 75px;
+  }
+  .top-suit {
+    display: block;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 70px;
+  }
+  .bottom-suit {
+    display: block;
+    padding-top: 123px;
+    padding-left: 297px;
+    font-size: 70px;
+  }
+  
+  button {
+      text-align: center;
+      margin-left: 800px;
+      margin-top: 50px;
+  }

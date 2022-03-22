@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>RandomCard</title>
+  </head>
+  <body>
+    <div id="card">
+      <span class="top-suit">
+        <div id="symbol" onload="ranSymbol()">
+
+        </div>
+      </span>
+      <!-- call it out within the div-->
+      <span class='number'>
+        <div id='number' onload="ranNumber()" ></div>
+      </span>
+      <span class="bottom-suit">
+        <div id="symbol" onload="ranSymbol()">
+      </div>
+      </span>
+    </div>
+    <button onclick="myFunction()">Generate Random Card</button>
+<!-- spades, diamonds, hearts, clubs-->
+    <script src="app.js"></script>
+  </body>
+</html>
